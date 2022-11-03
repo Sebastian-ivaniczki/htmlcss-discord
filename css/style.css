@@ -168,6 +168,18 @@ p{
 .flex > .full-col {
   flex-basis: 100%;
   
+} 
+ 
+h3{
+  font-size: 35px; 
+  background-image: url(../img/img/stars.svg);
+  background-size: 300px; 
+  background-repeat: no-repeat;
+} 
+
+.end-page-download{
+  background-color: #8EA1E1; 
+  color: #fff;
 }
 
 /* # Footer */
@@ -185,18 +197,46 @@ footer {
   border-bottom: 1px solid purple;
 
   display: flex;
+} 
+
+.brands{
+  font-size: 35px; 
+  color: #7188D8;
+} 
+
+.flag-italy{
+  width: 30px; 
+  margin-top: 30px;
+} 
+span{
+  text-align: justify;
+} 
+
+.social-media > .fa-brands{
+  margin-right: 30px;
+  margin-top: 20px;
 }
 
 .footer-top .footer-left {
   flex-basis: 30%;
-  background-color: pink;
+  
 }
 
 .footer-top .footer-right {
   flex-basis: 70%;
-  background-color: #20b2aa;
+  
 }
 
+h4{
+  color: #7087D7;
+  margin-bottom: 20px; 
+  font-size: 20px;
+} 
+
+.serch{
+  margin-bottom: 10px; 
+  font-size: 17px;
+}
 .footer-nav {
   height: 100%;
   display: flex;
