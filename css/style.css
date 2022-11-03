@@ -10,7 +10,16 @@ body {
   font-family: sans-serif;
 }
 
-/* Utils */
+/* Utils */ 
+.nav-link{
+  display: flex;
+  justify-content: space-around; 
+ 
+} 
+
+.info-link{
+  flex-grow: 1;
+}
 
 .container {
   max-width: 1200px;
@@ -23,7 +32,8 @@ body {
 
 .flex.row-reverse {
   flex-direction: row-reverse;
-}
+} 
+
 
 .debug .border {
   border: 2px dashed black;
@@ -38,11 +48,21 @@ body {
 }
 
 header {
-  background-color: lightblue;
+  background-color: #255EE9;
+  color: #fff;
 }
+.logo-discord{
+  width: 90px;
+} 
 
+a{
+  text-decoration: none; 
+  color: #fff;
+}
+ul{
+  list-style-type: none;
+}
 /* # Navbar */
-
 .navbar {
   height: 80px;
 
@@ -50,11 +70,16 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-
+ 
+.login{
+  border-radius: 20px;
+  padding: 5px; 
+  border: none;
+}
 .navbar > * {
   padding: 10px;
   flex-basis: 20%;
-  background-color: goldenrod;
+ 
 }
 
 .navbar-menu {
@@ -71,8 +96,7 @@ header {
 .jumbotron {
   padding: 50px;
   height: 500px;
-  background-color: darkblue;
-
+background-image: url(../img/img/jumbo.png);
   display: flex;
   justify-content: center;
 }
@@ -114,7 +138,7 @@ section > .container {
 footer {
   padding: 50px;
   background-color: #23272a;
-  /* color: white; */
+  color: white; 
 }
 
 .footer-top {
@@ -156,5 +180,5 @@ footer {
 
 .footer-bottom > * {
   padding: 5px 10px;
-  background-color: yellow;
+ 
 }
