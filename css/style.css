@@ -97,7 +97,8 @@ ul{
   padding: 50px;
   height: 500px;
   background-image: url(../img/img/jumbo.png);
- 
+  background-size: 100%; 
+
   display: flex;
   justify-content: center;
 }
@@ -170,11 +171,16 @@ p{
   
 } 
  
-h3{
-  font-size: 35px; 
+.star{
   background-image: url(../img/img/stars.svg);
   background-size: 300px; 
-  background-repeat: no-repeat;
+  display: inline-block;
+  width: 600px;
+}
+
+h3{
+  font-size: 35px; 
+  
 } 
 
 .end-page-download{
