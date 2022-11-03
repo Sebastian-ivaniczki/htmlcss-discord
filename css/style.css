@@ -96,7 +96,8 @@ ul{
 .jumbotron {
   padding: 50px;
   height: 500px;
-background-image: url(../img/img/jumbo.png);
+  background-image: url(../img/img/jumbo.png);
+ 
   display: flex;
   justify-content: center;
 }
@@ -145,12 +146,21 @@ section > .container {
 
 .flex > .small-col {
   flex-basis: 40%;
-  background-color: pink;
+  
+  
+} 
+h2{
+  font-size: 60px; 
+  margin: 30px 0;
+} 
+
+p{
+  font-size: 26px;
 }
 
 .flex > .large-col {
   flex-basis: 60%;
-  background-color: dodgerblue;
+  
 }
 
 .flex > .full-col {
