@@ -101,11 +101,12 @@ ul{
   background-size: 100%; 
 
   display: flex;
-  justify-content: center;
+  justify-content: center; 
+  align-items: center;
 }
 h1{
   margin-bottom: 40px; 
-  font-size: 60px;
+  font-size: 50px;
 } 
 
 .jumbo-paragraph{
@@ -152,7 +153,7 @@ section > .container {
   
 } 
 h2{
-  font-size: 40px; 
+  font-size: 30px; 
   margin: 30px 0;
 } 
 
@@ -185,7 +186,7 @@ p{
 }
 
 h3{
-  font-size: 35px; 
+  font-size: 25px; 
   
 } 
 
@@ -242,7 +243,7 @@ span{
 h4{
   color: #7087D7;
   margin-bottom: 20px; 
-  font-size: 20px;
+  font-size: 15px;
 } 
 
 .serch{
